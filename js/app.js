@@ -43,7 +43,7 @@ if(gamePlaying) {
 // ui
 document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
 // check winner
-if (scores[activePlayer] >= 20 ) {
+if (scores[activePlayer] >= 100 ) {
         document.querySelector('#name-'+ activePlayer).textContent = "winner!";
         document.querySelector('.dice').style.display = "none";
         document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
